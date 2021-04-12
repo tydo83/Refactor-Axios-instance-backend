@@ -11,7 +11,7 @@ require("dotenv").config();
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users/usersRouter");
 var friendsRouter = require("./routes/friends/friendsRouter");
-
+//"mongodb+srv://admin:admin@cluster0.xdetl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 mongoose
   .connect(process.env.MONGO_DB, {
     useNewUrlParser: true,
